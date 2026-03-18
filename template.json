@@ -1,0 +1,59 @@
+{
+  "name": "Course Landing v2",
+  "layout": {
+    "id": "page-root",
+    "type": "page",
+    "props": {},
+    "children": [
+      { "id": "n-navbar", "type": "navbar", "props": { "logo": "{{course.title}}", "links": ["Home", "Curriculum", "Enroll"], "bgColor": "#0a0a16" } },
+      { "id": "n-hero", "type": "hero", "props": { "title": "{{course.title}}", "subtitle": "{{course.description}}", "bgColor": "#0a0a16", "buttonText": "Start Learning Free", "buttonHref": "#enroll" } },
+      { "id": "n-stats", "type": "section", "props": { "padding": "40px", "bgColor": "#13131f" }, "children": [
+        { "id": "n-stats-grid", "type": "grid", "props": { "columns": 4, "gap": "24px" }, "children": [
+          { "id": "n-s1", "type": "icontext", "props": { "icon": "👨‍🎓", "title": "12,000+", "text": "Students Enrolled" } },
+          { "id": "n-s2", "type": "icontext", "props": { "icon": "⭐", "title": "4.9 Rating", "text": "Average Review Score" } },
+          { "id": "n-s3", "type": "icontext", "props": { "icon": "🕐", "title": "{{course.duration}}", "text": "Total Duration" } },
+          { "id": "n-s4", "type": "icontext", "props": { "icon": "🎯", "title": "{{course.level}}", "text": "Skill Level" } }
+        ]}
+      ]},
+      { "id": "n-skills", "type": "section", "props": { "padding": "80px 40px", "bgColor": "#f9f9f9" }, "children": [
+        { "id": "n-skills-h", "type": "heading", "props": { "text": "Skills You Will Master", "fontSize": "2rem", "color": "#111111", "alignment": "center" } },
+        { "id": "n-spacer1", "type": "spacer", "props": { "height": "32px" } },
+        { "id": "n-p1", "type": "progress", "props": { "label": "React & TypeScript", "value": 95, "color": "#6c63ff", "bgColor": "#e5e7eb" } },
+        { "id": "n-p2", "type": "progress", "props": { "label": "Node.js & APIs", "value": 85, "color": "#6c63ff", "bgColor": "#e5e7eb" } },
+        { "id": "n-p3", "type": "progress", "props": { "label": "Database Design", "value": 80, "color": "#6c63ff", "bgColor": "#e5e7eb" } }
+      ]},
+      { "id": "n-testimonials", "type": "section", "props": { "padding": "80px 40px", "bgColor": "#ffffff" }, "children": [
+        { "id": "n-test-h", "type": "heading", "props": { "text": "What Students Say", "fontSize": "2rem", "color": "#111111", "alignment": "center" } },
+        { "id": "n-spacer2", "type": "spacer", "props": { "height": "32px" } },
+        { "id": "n-test-grid", "type": "grid", "props": { "columns": 3, "gap": "24px" }, "children": [
+          { "id": "n-t1", "type": "testimonial", "props": { "quote": "This course changed my career completely!", "author": "Sarah Johnson", "role": "Frontend Developer", "bgColor": "#f9f9f9" } },
+          { "id": "n-t2", "type": "testimonial", "props": { "quote": "Best investment I ever made. Real world projects!", "author": "Mike Chen", "role": "Full Stack Engineer", "bgColor": "#f9f9f9" } },
+          { "id": "n-t3", "type": "testimonial", "props": { "quote": "Clear, practical and well structured. Loved it!", "author": "Priya Patel", "role": "Software Engineer", "bgColor": "#f9f9f9" } }
+        ]}
+      ]},
+      { "id": "n-pricing", "type": "section", "props": { "padding": "80px 40px", "bgColor": "#13131f" }, "children": [
+        { "id": "n-price-h", "type": "heading", "props": { "text": "Simple Pricing", "fontSize": "2rem", "color": "#ffffff", "alignment": "center" } },
+        { "id": "n-spacer3", "type": "spacer", "props": { "height": "32px" } },
+        { "id": "n-price-grid", "type": "grid", "props": { "columns": 3, "gap": "24px" }, "children": [
+          { "id": "n-price1", "type": "pricing", "props": { "title": "Basic", "price": "29", "period": "/month", "features": ["5 Projects", "Basic Support", "3 months access"], "buttonText": "Get Started", "highlighted": false } },
+          { "id": "n-price2", "type": "pricing", "props": { "title": "Pro", "price": "{{course.price}}", "period": "/month", "features": ["Unlimited Projects", "Priority Support", "Lifetime access", "Certificate"], "buttonText": "Most Popular", "highlighted": true } },
+          { "id": "n-price3", "type": "pricing", "props": { "title": "Team", "price": "99", "period": "/month", "features": ["Everything in Pro", "Team Dashboard", "Dedicated Support"], "buttonText": "Contact Us", "highlighted": false } }
+        ]}
+      ]},
+      { "id": "n-faq", "type": "section", "props": { "padding": "80px 40px", "bgColor": "#ffffff" }, "children": [
+        { "id": "n-faq-h", "type": "heading", "props": { "text": "Frequently Asked Questions", "fontSize": "2rem", "color": "#111111", "alignment": "center" } },
+        { "id": "n-spacer4", "type": "spacer", "props": { "height": "32px" } },
+        { "id": "n-faq1", "type": "faq", "props": { "question": "Do I need prior experience?", "answer": "No! This course starts from the basics and takes you all the way to advanced concepts." } },
+        { "id": "n-faq2", "type": "faq", "props": { "question": "How long do I have access?", "answer": "You get lifetime access to all course materials including future updates." } },
+        { "id": "n-faq3", "type": "faq", "props": { "question": "Is there a money back guarantee?", "answer": "Yes! We offer a 30-day money back guarantee, no questions asked." } }
+      ]},
+      { "id": "n-cta", "type": "section", "props": { "padding": "80px 40px", "bgColor": "#6c63ff" }, "children": [
+        { "id": "n-cta-h", "type": "heading", "props": { "text": "Ready to Transform Your Career?", "fontSize": "2.5rem", "color": "#ffffff", "alignment": "center" } },
+        { "id": "n-cta-t", "type": "text", "props": { "text": "Join 12,000+ students already learning. Get instant access today.", "color": "#ffffffcc", "fontSize": "1.1rem", "alignment": "center" } },
+        { "id": "n-cta-price", "type": "heading", "props": { "text": "{{course.price}}", "fontSize": "3rem", "color": "#ffffff", "alignment": "center" } },
+        { "id": "n-cta-btn", "type": "button", "props": { "label": "Enroll Now", "variant": "outline", "href": "#", "color": "#6c63ff", "bgColor": "#ffffff", "borderRadius": "8px", "padding": "16px 40px", "fontSize": "16px", "alignment": "center" } }
+      ]},
+      { "id": "n-footer", "type": "footer", "props": { "text": "© 2025 {{course.title}} by {{course.instructor}}. All rights reserved.", "bgColor": "#0a0a16", "color": "#555555", "alignment": "center" } }
+    ]
+  }
+}

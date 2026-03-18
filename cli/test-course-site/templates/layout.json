@@ -1,0 +1,289 @@
+{
+  "id": "page-root",
+  "type": "page",
+  "props": {},
+  "children": [
+    {
+      "id": "n1",
+      "type": "navbar",
+      "props": {
+        "logo": "Full Stack Development 2025",
+        "links": [
+          "Home",
+          "About",
+          "Enroll"
+        ],
+        "bgColor": "#0a0a16"
+      }
+    },
+    {
+      "id": "n2",
+      "type": "hero",
+      "props": {
+        "title": "Full Stack Development 2025",
+        "bgColor": "#0a0a16",
+        "subtitle": "Master full stack development with React, Node.js and PostgreSQL. Build 10 real world projects.",
+        "buttonHref": "#",
+        "buttonText": "Enroll Now"
+      }
+    },
+    {
+      "id": "n3",
+      "type": "section",
+      "props": {
+        "bgColor": "#f9f9f9",
+        "padding": "60px 40px"
+      },
+      "children": [
+        {
+          "id": "n3a",
+          "type": "heading",
+          "props": {
+            "text": "What Students Say",
+            "color": "#111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n3b",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n3c",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 3
+          },
+          "children": [
+            {
+              "id": "n3c1",
+              "type": "testimonial",
+              "props": {
+                "role": "Developer",
+                "quote": "Amazing course! Got a job in 3 months.",
+                "author": "Sarah J",
+                "bgColor": "#ffffff"
+              }
+            },
+            {
+              "id": "n3c2",
+              "type": "testimonial",
+              "props": {
+                "role": "Engineer",
+                "quote": "Best investment ever. Real world projects!",
+                "author": "Mike C",
+                "bgColor": "#ffffff"
+              }
+            },
+            {
+              "id": "n3c3",
+              "type": "testimonial",
+              "props": {
+                "role": "Engineer",
+                "quote": "Clear and practical. Highly recommended!",
+                "author": "Priya P",
+                "bgColor": "#ffffff"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n4",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "60px 40px"
+      },
+      "children": [
+        {
+          "id": "n4a",
+          "type": "heading",
+          "props": {
+            "text": "Simple Pricing",
+            "color": "#ffffff",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n4b",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n4c",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 3
+          },
+          "children": [
+            {
+              "id": "n4c1",
+              "type": "pricing",
+              "props": {
+                "price": "29",
+                "title": "Basic",
+                "period": "/month",
+                "features": [
+                  "5 Projects",
+                  "Email Support",
+                  "3 months"
+                ],
+                "buttonText": "Start Free",
+                "highlighted": false
+              }
+            },
+            {
+              "id": "n4c2",
+              "type": "pricing",
+              "props": {
+                "price": "49",
+                "title": "Pro",
+                "period": "/month",
+                "features": [
+                  "Unlimited Projects",
+                  "Priority Support",
+                  "Lifetime Access",
+                  "Certificate"
+                ],
+                "buttonText": "Get Pro",
+                "highlighted": true
+              }
+            },
+            {
+              "id": "n4c3",
+              "type": "pricing",
+              "props": {
+                "price": "99",
+                "title": "Team",
+                "period": "/month",
+                "features": [
+                  "Everything in Pro",
+                  "Team Dashboard",
+                  "Dedicated Support"
+                ],
+                "buttonText": "Contact Us",
+                "highlighted": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n5",
+      "type": "section",
+      "props": {
+        "bgColor": "#ffffff",
+        "padding": "60px 40px"
+      },
+      "children": [
+        {
+          "id": "n5a",
+          "type": "heading",
+          "props": {
+            "text": "Frequently Asked Questions",
+            "color": "#111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n5b",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n5c",
+          "type": "faq",
+          "props": {
+            "answer": "No! We start from the basics.",
+            "question": "Do I need experience?"
+          }
+        },
+        {
+          "id": "n5d",
+          "type": "faq",
+          "props": {
+            "answer": "Lifetime access to all materials.",
+            "question": "How long is access?"
+          }
+        },
+        {
+          "id": "n5e",
+          "type": "faq",
+          "props": {
+            "answer": "Yes! 30-day money back guarantee.",
+            "question": "Is there a refund?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n6",
+      "type": "section",
+      "props": {
+        "bgColor": "#6c63ff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n6a",
+          "type": "heading",
+          "props": {
+            "text": "Ready to Start?",
+            "color": "#ffffff",
+            "fontSize": "2.5rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n6b",
+          "type": "text",
+          "props": {
+            "text": "Join thousands of students today.",
+            "color": "#ffffffcc",
+            "fontSize": "1.1rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n6c",
+          "type": "button",
+          "props": {
+            "href": "#",
+            "color": "#6c63ff",
+            "label": "Enroll Now",
+            "bgColor": "#ffffff",
+            "padding": "16px 40px",
+            "variant": "outline",
+            "alignment": "center",
+            "borderRadius": "8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n7",
+      "type": "footer",
+      "props": {
+        "text": "© 2025 Full Stack Development 2025 by Amit Prasad. All rights reserved.",
+        "color": "#555",
+        "bgColor": "#0a0a16",
+        "alignment": "center"
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "18006dd0-f626-4e22-940d-aea47ef8fe98",
+  "title": "Full Stack Bootcamp 2025",
+  "description": "Master full stack development from zero to hero. Build 15 real-world projects using React, Node.js, PostgreSQL and deploy to production.",
+  "thumbnail": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800",
+  "instructor": "Amit Prasad",
+  "price": 59,
+  "duration": "56 Hours",
+  "level": "Beginner to Advanced",
+  "tags": [
+    "react",
+    "nodejs",
+    "postgresql",
+    "fullstack"
+  ],
+  "createdAt": "2026-03-18T06:49:42.495Z",
+  "updatedAt": "2026-03-18T06:49:42.495Z",
+  "websiteId": "45d761e8-d888-4b91-9c24-33417b5f8ed9",
+  "lessons": [
+    {
+      "id": "316fd32e-44be-4361-94ca-2e4fcef6db15",
+      "title": "Introduction to Full Stack Development",
+      "description": "Overview of the course and tools",
+      "duration": "45 min",
+      "videoUrl": null,
+      "order": 1,
+      "createdAt": "2026-03-18T06:53:00.743Z",
+      "updatedAt": "2026-03-18T06:53:00.743Z",
+      "courseId": "18006dd0-f626-4e22-940d-aea47ef8fe98"
+    },
+    {
+      "id": "a266378c-2038-436a-8b82-ef4e85f76e7a",
+      "title": "Setting Up Your Development Environment",
+      "description": "Install Node.js, VS Code, PostgreSQL",
+      "duration": "30 min",
+      "videoUrl": null,
+      "order": 2,
+      "createdAt": "2026-03-18T06:53:00.754Z",
+      "updatedAt": "2026-03-18T06:53:00.754Z",
+      "courseId": "18006dd0-f626-4e22-940d-aea47ef8fe98"
+    },
+    {
+      "id": "d8aaa60e-3e3c-446e-850e-e74afc7c595b",
+      "title": "React Fundamentals",
+      "description": "Components, Props, State and Hooks",
+      "duration": "2 hours",
+      "videoUrl": null,
+      "order": 3,
+      "createdAt": "2026-03-18T06:53:00.761Z",
+      "updatedAt": "2026-03-18T06:53:00.761Z",
+      "courseId": "18006dd0-f626-4e22-940d-aea47ef8fe98"
+    },
+    {
+      "id": "3009ef80-5988-4680-ad14-7aabd5ef9d22",
+      "title": "Building REST APIs with Node.js",
+      "description": "Express, routing, middleware",
+      "duration": "2 hours",
+      "videoUrl": null,
+      "order": 4,
+      "createdAt": "2026-03-18T06:53:00.769Z",
+      "updatedAt": "2026-03-18T06:53:00.769Z",
+      "courseId": "18006dd0-f626-4e22-940d-aea47ef8fe98"
+    },
+    {
+      "id": "b592160b-6290-4760-82cb-667241011f3e",
+      "title": "Database Design with PostgreSQL",
+      "description": "Tables, relations, queries",
+      "duration": "1.5 hours",
+      "videoUrl": null,
+      "order": 5,
+      "createdAt": "2026-03-18T06:53:00.777Z",
+      "updatedAt": "2026-03-18T06:53:00.777Z",
+      "courseId": "18006dd0-f626-4e22-940d-aea47ef8fe98"
+    }
+  ]
+}

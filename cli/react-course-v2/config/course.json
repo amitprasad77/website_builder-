@@ -1,0 +1,19 @@
+{
+  "id": "48005b1c-e9be-4fe6-9b0d-ff11925ed5ab",
+  "title": "React Masterclass 2025",
+  "description": "Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling.",
+  "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800",
+  "instructor": "Amit Prasad",
+  "price": 49,
+  "duration": "42 Hours",
+  "level": "Beginner",
+  "tags": [
+    "react",
+    "typescript",
+    "frontend"
+  ],
+  "createdAt": "2026-03-18T07:09:14.074Z",
+  "updatedAt": "2026-03-18T07:09:14.074Z",
+  "websiteId": "c0da2340-8c77-419c-8844-85a97d599b75",
+  "lessons": []
+}

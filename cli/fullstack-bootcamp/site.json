@@ -1,0 +1,8 @@
+{
+  "id": "45d761e8-d888-4b91-9c24-33417b5f8ed9",
+  "slug": "fullstack-bootcamp",
+  "name": "Full Stack Bootcamp",
+  "status": "DRAFT",
+  "pulledAt": "2026-03-18T06:53:37.886Z",
+  "apiUrl": "http://localhost:5000/api"
+}

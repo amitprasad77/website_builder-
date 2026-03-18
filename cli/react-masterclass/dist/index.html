@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>React Masterclass 2025</title>
+  <meta name="description" content="Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling used at top tech companies." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    nav { background: #0a0a16; border-bottom: 1px solid #2d2d42; padding: 0 40px; height: 64px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+    nav .logo { font-weight: 700; font-size: 18px; color: #fff; }
+    nav .links { display: flex; gap: 24px; }
+    nav .links a { color: #aaa; font-size: 14px; font-weight: 500; }
+    .hero { background: #0a0a16; padding: 100px 40px; text-align: center; color: #fff; }
+    .hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 20px; }
+    .hero p { font-size: 1.2rem; color: #aac; max-width: 600px; margin: 0 auto 32px; }
+    .btn { display: inline-block; background: #6c63ff; color: #fff; padding: 14px 32px; border-radius: 8px; font-weight: 600; font-size: 15px; }
+    .btn-outline { background: transparent; border: 2px solid #fff; color: #fff; }
+    section { padding: 60px 40px; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .cols { display: flex; gap: 60px; align-items: flex-start; }
+    .cols > * { flex: 1; }
+    .stat-card { background: #1e1e2e; padding: 24px; border-radius: 12px; text-align: center; }
+    .stat-card .num { font-size: 2rem; font-weight: 800; color: #6c63ff; margin-bottom: 8px; }
+    .stat-card .num.gold { color: #f59e0b; }
+    .stat-card .label { color: #888; font-size: 0.9rem; }
+    .label-tag { color: #6c63ff; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+    .section-dark { background: #0d0d1a; color: #fff; }
+    .section-mid { background: #13131f; color: #fff; }
+    .section-purple { background: #6c63ff; color: #fff; text-align: center; }
+    .lesson-card { background: #1e1e2e; border: 1px solid #2d2d42; border-radius: 10px; padding: 20px; margin-bottom: 12px; display: flex; align-items: center; gap: 16px; }
+    .lesson-num { width: 36px; height: 36px; border-radius: 50%; background: #6c63ff22; border: 1px solid #6c63ff44; color: #6c63ff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+    .lesson-info h4 { color: #fff; font-size: 15px; margin: 0 0 4px; }
+    .lesson-info p { color: #555; font-size: 13px; margin: 0; }
+    footer { background: #0a0a16; color: #555; padding: 40px; text-align: center; font-size: 14px; }
+    @media (max-width: 768px) {
+      .grid-4, .grid-3 { grid-template-columns: 1fr 1fr; }
+      .cols { flex-direction: column; }
+      .hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="logo">React Masterclass 2025</div>
+  <div class="links"><a href="#">Home</a><a href="#">Curriculum</a><a href="#">Instructor</a><a href="#">Enroll</a></div>
+</nav>
+<div class="hero">
+  <h1>React Masterclass 2025</h1>
+  <p>Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling used at top tech companies.</p>
+  <a href="#curriculum" class="btn">Start Learning Free</a>
+</div>
+<section style="padding:40px;background:#13131f;" class="section-mid">
+<div class="container" style="max-width:1100px;padding:0 20px;">
+<div class="grid-4" style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+<section style="padding:24px;background:#1e1e2e;" class="">
+<h2 style="font-size:2rem;color:#6c63ff;text-align:center;">
+  12,000+
+</h2>
+<p style="font-size:0.9rem;color:#888;">
+  Students Enrolled
+</p>
+</section>
+<section style="padding:24px;background:#1e1e2e;" class="">
+<h2 style="font-size:2rem;color:#f59e0b;text-align:center;">
+  4.9 ★
+</h2>
+<p style="font-size:0.9rem;color:#888;">
+  Average Rating
+</p>
+</section>
+<section style="padding:24px;background:#1e1e2e;" class="">
+<h2 style="font-size:2rem;color:#6c63ff;text-align:center;">
+  42 Hours
+</h2>
+<p style="font-size:0.9rem;color:#888;">
+  Total Duration
+</p>
+</section>
+<section style="padding:24px;background:#1e1e2e;" class="">
+<h2 style="font-size:2rem;color:#6c63ff;text-align:center;">
+  Beginner
+</h2>
+<p style="font-size:0.9rem;color:#888;">
+  Skill Level
+</p>
+</section>
+</div>
+</div>
+</section>
+<section style="padding:80px 40px;background:#0d0d1a;" class="section-dark">
+<div class="container" style="max-width:1100px;padding:0 20px;">
+<div class="cols" style="gap:60px;">
+<section style="padding:0;background:transparent;" class="">
+<p style="font-size:0.75rem;color:#6c63ff;">
+  ABOUT THIS COURSE
+</p>
+<h2 style="font-size:2.2rem;color:#ffffff;text-align:left;">
+  What You Will Learn
+</h2>
+<p style="font-size:1rem;color:#aaa;">
+  Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling used at top tech companies.
+</p>
+<p style="font-size:0.95rem;color:#ccc;">
+  ✓  Build real-world projects from scratch
+</p>
+<p style="font-size:0.95rem;color:#ccc;">
+  ✓  Master industry best practices
+</p>
+<p style="font-size:0.95rem;color:#ccc;">
+  ✓  Get lifetime access to all materials
+</p>
+<p style="font-size:0.95rem;color:#ccc;">
+  ✓  Certificate of completion included
+</p>
+<a href="#enroll" class="btn " style="margin-bottom:16px;">
+  Enroll Now — Free Preview
+</a>
+</section>
+<section style="padding:0;background:transparent;" class="">
+<img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800" alt="Course preview" style="width:100%;border-radius:8px;display:block;" />
+</section>
+</div>
+</div>
+</section>
+<section style="padding:80px 40px;background:#13131f;" class="section-mid">
+<div class="container" style="max-width:700px;padding:0 20px;">
+<p style="font-size:0.75rem;color:#6c63ff;">
+  YOUR INSTRUCTOR
+</p>
+<h2 style="font-size:2rem;color:#ffffff;text-align:left;">
+  Amit Prasad
+</h2>
+<p style="font-size:1rem;color:#aaa;">
+  Expert instructor with years of industry experience. Passionate about teaching and helping students achieve real results.
+</p>
+</div>
+</section>
+<section style="padding:80px 40px;background:#6c63ff;" class="section-purple">
+<div class="container" style="max-width:700px;padding:0 20px;">
+<h2 style="font-size:2.5rem;color:#ffffff;text-align:center;">
+  Ready to Get Started?
+</h2>
+<p style="font-size:1.1rem;color:#ffffffcc;">
+  Join thousands of students already learning. Get instant access today.
+</p>
+<h2 style="font-size:3rem;color:#ffffff;text-align:center;">
+  $49
+</h2>
+<a href="#" class="btn btn-outline" style="margin-bottom:16px;">
+  Enroll Now
+</a>
+</div>
+</section>
+<footer style="background:#0a0a16;color:#555555;">
+  © 2025 React Masterclass 2025 by Amit Prasad. All rights reserved.
+</footer>
+</body>
+</html>

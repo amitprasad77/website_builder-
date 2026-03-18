@@ -1,0 +1,552 @@
+{
+  "id": "page-root",
+  "type": "page",
+  "props": {},
+  "children": [
+    {
+      "id": "n-navbar",
+      "type": "navbar",
+      "props": {
+        "logo": "Full Stack Bootcamp 2025",
+        "links": [
+          "Home",
+          "Curriculum",
+          "Instructor",
+          "Enroll"
+        ],
+        "bgColor": "#0a0a16"
+      }
+    },
+    {
+      "id": "n-hero",
+      "type": "hero",
+      "props": {
+        "title": "Full Stack Bootcamp 2025",
+        "bgColor": "#0a0a16",
+        "subtitle": "Master full stack development from zero to hero. Build 15 real-world projects using React, Node.js, PostgreSQL and deploy to production.",
+        "buttonHref": "#enroll",
+        "buttonText": "Start Learning Free"
+      }
+    },
+    {
+      "id": "n-stats",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "40px"
+      },
+      "children": [
+        {
+          "id": "n-stats-grid",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 4
+          },
+          "children": [
+            {
+              "id": "n-s1",
+              "type": "icontext",
+              "props": {
+                "icon": "👨‍🎓",
+                "text": "Students Enrolled",
+                "title": "12,000+"
+              }
+            },
+            {
+              "id": "n-s2",
+              "type": "icontext",
+              "props": {
+                "icon": "⭐",
+                "text": "Average Review Score",
+                "title": "4.9 Rating"
+              }
+            },
+            {
+              "id": "n-s3",
+              "type": "icontext",
+              "props": {
+                "icon": "🕐",
+                "text": "Total Duration",
+                "title": "56 Hours"
+              }
+            },
+            {
+              "id": "n-s4",
+              "type": "icontext",
+              "props": {
+                "icon": "🎯",
+                "text": "Skill Level",
+                "title": "Beginner to Advanced"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-about",
+      "type": "section",
+      "props": {
+        "bgColor": "#ffffff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-about-cols",
+          "type": "columns",
+          "props": {
+            "gap": "60px"
+          },
+          "children": [
+            {
+              "id": "n-about-left",
+              "type": "section",
+              "props": {
+                "bgColor": "transparent",
+                "padding": "0"
+              },
+              "children": [
+                {
+                  "id": "n-badge",
+                  "type": "badge",
+                  "props": {
+                    "text": "ABOUT THIS COURSE",
+                    "color": "#6c63ff",
+                    "bgColor": "#6c63ff22",
+                    "borderRadius": "20px"
+                  }
+                },
+                {
+                  "id": "n-about-h",
+                  "type": "heading",
+                  "props": {
+                    "text": "What You Will Learn",
+                    "color": "#111111",
+                    "fontSize": "2.2rem",
+                    "alignment": "left"
+                  }
+                },
+                {
+                  "id": "n-about-t",
+                  "type": "text",
+                  "props": {
+                    "text": "Master full stack development from zero to hero. Build 15 real-world projects using React, Node.js, PostgreSQL and deploy to production.",
+                    "color": "#555555",
+                    "fontSize": "1rem"
+                  }
+                },
+                {
+                  "id": "n-feat1",
+                  "type": "icontext",
+                  "props": {
+                    "icon": "✅",
+                    "text": "Build projects used in production",
+                    "title": "Real World Projects"
+                  }
+                },
+                {
+                  "id": "n-feat2",
+                  "type": "icontext",
+                  "props": {
+                    "icon": "✅",
+                    "text": "Learn how top companies work",
+                    "title": "Industry Best Practices"
+                  }
+                },
+                {
+                  "id": "n-feat3",
+                  "type": "icontext",
+                  "props": {
+                    "icon": "✅",
+                    "text": "Access all materials forever",
+                    "title": "Lifetime Access"
+                  }
+                },
+                {
+                  "id": "n-enroll-btn",
+                  "type": "button",
+                  "props": {
+                    "href": "#enroll",
+                    "color": "#ffffff",
+                    "label": "Enroll Now — Free Preview",
+                    "bgColor": "#6c63ff",
+                    "padding": "14px 32px",
+                    "variant": "primary",
+                    "alignment": "left",
+                    "borderRadius": "8px"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "n-about-right",
+              "type": "section",
+              "props": {
+                "bgColor": "transparent",
+                "padding": "0"
+              },
+              "children": [
+                {
+                  "id": "n-course-img",
+                  "type": "image",
+                  "props": {
+                    "alt": "Course preview",
+                    "src": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800",
+                    "width": "100%",
+                    "borderRadius": "12px"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-skills",
+      "type": "section",
+      "props": {
+        "bgColor": "#f9f9f9",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-skills-h",
+          "type": "heading",
+          "props": {
+            "text": "Skills You Will Master",
+            "color": "#111111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer1",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-p1",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "React & TypeScript",
+            "value": 95,
+            "bgColor": "#e5e7eb"
+          }
+        },
+        {
+          "id": "n-p2",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "Node.js & APIs",
+            "value": 85,
+            "bgColor": "#e5e7eb"
+          }
+        },
+        {
+          "id": "n-p3",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "Database Design",
+            "value": 80,
+            "bgColor": "#e5e7eb"
+          }
+        },
+        {
+          "id": "n-p4",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "DevOps & Deployment",
+            "value": 75,
+            "bgColor": "#e5e7eb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n-testimonials",
+      "type": "section",
+      "props": {
+        "bgColor": "#ffffff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-test-h",
+          "type": "heading",
+          "props": {
+            "text": "What Students Say",
+            "color": "#111111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer2",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-test-grid",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 3
+          },
+          "children": [
+            {
+              "id": "n-t1",
+              "type": "testimonial",
+              "props": {
+                "role": "Frontend Developer",
+                "quote": "This course completely changed my career. I got a job at a top company within 3 months!",
+                "author": "Sarah Johnson",
+                "bgColor": "#f9f9f9"
+              }
+            },
+            {
+              "id": "n-t2",
+              "type": "testimonial",
+              "props": {
+                "role": "Full Stack Engineer",
+                "quote": "The best investment I made. The projects are real-world and the instructor is amazing.",
+                "author": "Mike Chen",
+                "bgColor": "#f9f9f9"
+              }
+            },
+            {
+              "id": "n-t3",
+              "type": "testimonial",
+              "props": {
+                "role": "Software Engineer",
+                "quote": "Clear explanations, great projects, and excellent support. Highly recommended!",
+                "author": "Priya Patel",
+                "bgColor": "#f9f9f9"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-pricing",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-price-h",
+          "type": "heading",
+          "props": {
+            "text": "Simple Pricing",
+            "color": "#ffffff",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer3",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-price-grid",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 3
+          },
+          "children": [
+            {
+              "id": "n-price1",
+              "type": "pricing",
+              "props": {
+                "price": "$29",
+                "title": "Basic",
+                "period": "/month",
+                "features": [
+                  "5 Projects",
+                  "Basic Support",
+                  "3 months access"
+                ],
+                "buttonText": "Get Started",
+                "highlighted": false
+              }
+            },
+            {
+              "id": "n-price2",
+              "type": "pricing",
+              "props": {
+                "price": "$59",
+                "title": "Pro",
+                "period": "/month",
+                "features": [
+                  "Unlimited Projects",
+                  "Priority Support",
+                  "Lifetime access",
+                  "Certificate"
+                ],
+                "buttonText": "Most Popular",
+                "highlighted": true
+              }
+            },
+            {
+              "id": "n-price3",
+              "type": "pricing",
+              "props": {
+                "price": "$99",
+                "title": "Team",
+                "period": "/month",
+                "features": [
+                  "Everything in Pro",
+                  "Team Dashboard",
+                  "Custom Projects",
+                  "Dedicated Support"
+                ],
+                "buttonText": "Contact Us",
+                "highlighted": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-faq",
+      "type": "section",
+      "props": {
+        "bgColor": "#ffffff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-faq-h",
+          "type": "heading",
+          "props": {
+            "text": "Frequently Asked Questions",
+            "color": "#111111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer4",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-faq1",
+          "type": "faq",
+          "props": {
+            "answer": "No! This course starts from the basics and takes you all the way to advanced concepts.",
+            "question": "Do I need prior experience?"
+          }
+        },
+        {
+          "id": "n-faq2",
+          "type": "faq",
+          "props": {
+            "answer": "You get lifetime access to all course materials including future updates.",
+            "question": "How long do I have access?"
+          }
+        },
+        {
+          "id": "n-faq3",
+          "type": "faq",
+          "props": {
+            "answer": "Yes! We offer a 30-day money back guarantee, no questions asked.",
+            "question": "Is there a money back guarantee?"
+          }
+        },
+        {
+          "id": "n-faq4",
+          "type": "faq",
+          "props": {
+            "answer": "Yes, upon completion you will receive a certificate you can share on LinkedIn.",
+            "question": "Will I get a certificate?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n-cta",
+      "type": "section",
+      "props": {
+        "bgColor": "#6c63ff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-cta-h",
+          "type": "heading",
+          "props": {
+            "text": "Ready to Transform Your Career?",
+            "color": "#ffffff",
+            "fontSize": "2.5rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-cta-t",
+          "type": "text",
+          "props": {
+            "text": "Join 12,000+ students already learning. Get instant access today.",
+            "color": "#ffffffcc",
+            "fontSize": "1.1rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-cta-price",
+          "type": "heading",
+          "props": {
+            "text": "$59",
+            "color": "#ffffff",
+            "fontSize": "3rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-cta-btn",
+          "type": "button",
+          "props": {
+            "href": "#",
+            "color": "#6c63ff",
+            "label": "Enroll Now",
+            "bgColor": "#ffffff",
+            "padding": "16px 40px",
+            "variant": "outline",
+            "fontSize": "16px",
+            "alignment": "center",
+            "borderRadius": "8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n-footer",
+      "type": "footer",
+      "props": {
+        "text": "© 2025 Full Stack Bootcamp 2025 by Amit Prasad. All rights reserved.",
+        "color": "#555555",
+        "bgColor": "#0a0a16",
+        "alignment": "center"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "site-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to pull, build and deploy course websites",
+  "main": "bin/site-cli.js",
+  "bin": {
+    "site-cli": "./bin/site-cli.js"
+  },
+  "scripts": {
+    "start": "node bin/site-cli.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "license": "ISC"
+}

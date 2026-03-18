@@ -1,0 +1,19 @@
+{
+  "id": "d199919d-e7ec-41ac-9ad6-885f00917ee6",
+  "title": "Full Stack Development 2025",
+  "description": "Master full stack development with React, Node.js and PostgreSQL. Build 10 real world projects.",
+  "thumbnail": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=800",
+  "instructor": "Amit Prasad",
+  "price": 49,
+  "duration": "48 Hours",
+  "level": "Beginner",
+  "tags": [
+    "react",
+    "nodejs",
+    "fullstack"
+  ],
+  "createdAt": "2026-03-18T12:46:05.382Z",
+  "updatedAt": "2026-03-18T12:46:05.382Z",
+  "websiteId": "c28cb1a0-b2d0-4930-80ec-dffb50d37cfd",
+  "lessons": []
+}

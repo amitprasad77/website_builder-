@@ -1,0 +1,43 @@
+{
+  "name": "Test Template",
+  "layout": {
+    "id": "page-root",
+    "type": "page",
+    "props": {},
+    "children": [
+      { "id": "n1", "type": "navbar", "props": { "logo": "{{course.title}}", "links": ["Home", "About", "Enroll"], "bgColor": "#0a0a16" }},
+      { "id": "n2", "type": "hero", "props": { "title": "{{course.title}}", "subtitle": "{{course.description}}", "bgColor": "#0a0a16", "buttonText": "Enroll Now", "buttonHref": "#" }},
+      { "id": "n3", "type": "section", "props": { "padding": "60px 40px", "bgColor": "#f9f9f9" }, "children": [
+        { "id": "n3a", "type": "heading", "props": { "text": "What Students Say", "fontSize": "2rem", "color": "#111", "alignment": "center" }},
+        { "id": "n3b", "type": "spacer", "props": { "height": "32px" }},
+        { "id": "n3c", "type": "grid", "props": { "columns": 3, "gap": "24px" }, "children": [
+          { "id": "n3c1", "type": "testimonial", "props": { "quote": "Amazing course! Got a job in 3 months.", "author": "Sarah J", "role": "Developer", "bgColor": "#ffffff" }},
+          { "id": "n3c2", "type": "testimonial", "props": { "quote": "Best investment ever. Real world projects!", "author": "Mike C", "role": "Engineer", "bgColor": "#ffffff" }},
+          { "id": "n3c3", "type": "testimonial", "props": { "quote": "Clear and practical. Highly recommended!", "author": "Priya P", "role": "Engineer", "bgColor": "#ffffff" }}
+        ]}
+      ]},
+      { "id": "n4", "type": "section", "props": { "padding": "60px 40px", "bgColor": "#13131f" }, "children": [
+        { "id": "n4a", "type": "heading", "props": { "text": "Simple Pricing", "fontSize": "2rem", "color": "#ffffff", "alignment": "center" }},
+        { "id": "n4b", "type": "spacer", "props": { "height": "32px" }},
+        { "id": "n4c", "type": "grid", "props": { "columns": 3, "gap": "24px" }, "children": [
+          { "id": "n4c1", "type": "pricing", "props": { "title": "Basic", "price": "29", "period": "/month", "features": ["5 Projects", "Email Support", "3 months"], "buttonText": "Start Free", "highlighted": false }},
+          { "id": "n4c2", "type": "pricing", "props": { "title": "Pro", "price": "{{course.price}}", "period": "/month", "features": ["Unlimited Projects", "Priority Support", "Lifetime Access", "Certificate"], "buttonText": "Get Pro", "highlighted": true }},
+          { "id": "n4c3", "type": "pricing", "props": { "title": "Team", "price": "99", "period": "/month", "features": ["Everything in Pro", "Team Dashboard", "Dedicated Support"], "buttonText": "Contact Us", "highlighted": false }}
+        ]}
+      ]},
+      { "id": "n5", "type": "section", "props": { "padding": "60px 40px", "bgColor": "#ffffff" }, "children": [
+        { "id": "n5a", "type": "heading", "props": { "text": "Frequently Asked Questions", "fontSize": "2rem", "color": "#111", "alignment": "center" }},
+        { "id": "n5b", "type": "spacer", "props": { "height": "32px" }},
+        { "id": "n5c", "type": "faq", "props": { "question": "Do I need experience?", "answer": "No! We start from the basics." }},
+        { "id": "n5d", "type": "faq", "props": { "question": "How long is access?", "answer": "Lifetime access to all materials." }},
+        { "id": "n5e", "type": "faq", "props": { "question": "Is there a refund?", "answer": "Yes! 30-day money back guarantee." }}
+      ]},
+      { "id": "n6", "type": "section", "props": { "padding": "80px 40px", "bgColor": "#6c63ff" }, "children": [
+        { "id": "n6a", "type": "heading", "props": { "text": "Ready to Start?", "fontSize": "2.5rem", "color": "#ffffff", "alignment": "center" }},
+        { "id": "n6b", "type": "text", "props": { "text": "Join thousands of students today.", "color": "#ffffffcc", "fontSize": "1.1rem", "alignment": "center" }},
+        { "id": "n6c", "type": "button", "props": { "label": "Enroll Now", "variant": "outline", "href": "#", "color": "#6c63ff", "bgColor": "#ffffff", "borderRadius": "8px", "padding": "16px 40px", "alignment": "center" }}
+      ]},
+      { "id": "n7", "type": "footer", "props": { "text": "© 2025 {{course.title}} by {{course.instructor}}. All rights reserved.", "bgColor": "#0a0a16", "color": "#555", "alignment": "center" }}
+    ]
+  }
+}

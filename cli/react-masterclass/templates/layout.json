@@ -1,0 +1,422 @@
+{
+  "id": "page-root",
+  "type": "page",
+  "props": {},
+  "children": [
+    {
+      "id": "node-navbar",
+      "type": "navbar",
+      "props": {
+        "logo": "React Masterclass 2025",
+        "links": [
+          "Home",
+          "Curriculum",
+          "Instructor",
+          "Enroll"
+        ],
+        "bgColor": "#0a0a16"
+      }
+    },
+    {
+      "id": "node-hero",
+      "type": "hero",
+      "props": {
+        "title": "React Masterclass 2025",
+        "bgColor": "#0a0a16",
+        "subtitle": "Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling used at top tech companies.",
+        "buttonHref": "#curriculum",
+        "buttonText": "Start Learning Free"
+      }
+    },
+    {
+      "id": "node-stats-section",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "40px"
+      },
+      "children": [
+        {
+          "id": "node-stats-container",
+          "type": "container",
+          "props": {
+            "padding": "0 20px",
+            "maxWidth": "1100px"
+          },
+          "children": [
+            {
+              "id": "node-stats-grid",
+              "type": "grid",
+              "props": {
+                "gap": "24px",
+                "columns": 4
+              },
+              "children": [
+                {
+                  "id": "node-stat1",
+                  "type": "section",
+                  "props": {
+                    "bgColor": "#1e1e2e",
+                    "padding": "24px"
+                  },
+                  "children": [
+                    {
+                      "id": "node-stat1-h",
+                      "type": "heading",
+                      "props": {
+                        "text": "12,000+",
+                        "color": "#6c63ff",
+                        "fontSize": "2rem",
+                        "alignment": "center"
+                      }
+                    },
+                    {
+                      "id": "node-stat1-t",
+                      "type": "text",
+                      "props": {
+                        "text": "Students Enrolled",
+                        "color": "#888",
+                        "fontSize": "0.9rem"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "node-stat2",
+                  "type": "section",
+                  "props": {
+                    "bgColor": "#1e1e2e",
+                    "padding": "24px"
+                  },
+                  "children": [
+                    {
+                      "id": "node-stat2-h",
+                      "type": "heading",
+                      "props": {
+                        "text": "4.9 ★",
+                        "color": "#f59e0b",
+                        "fontSize": "2rem",
+                        "alignment": "center"
+                      }
+                    },
+                    {
+                      "id": "node-stat2-t",
+                      "type": "text",
+                      "props": {
+                        "text": "Average Rating",
+                        "color": "#888",
+                        "fontSize": "0.9rem"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "node-stat3",
+                  "type": "section",
+                  "props": {
+                    "bgColor": "#1e1e2e",
+                    "padding": "24px"
+                  },
+                  "children": [
+                    {
+                      "id": "node-stat3-h",
+                      "type": "heading",
+                      "props": {
+                        "text": "42 Hours",
+                        "color": "#6c63ff",
+                        "fontSize": "2rem",
+                        "alignment": "center"
+                      }
+                    },
+                    {
+                      "id": "node-stat3-t",
+                      "type": "text",
+                      "props": {
+                        "text": "Total Duration",
+                        "color": "#888",
+                        "fontSize": "0.9rem"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "node-stat4",
+                  "type": "section",
+                  "props": {
+                    "bgColor": "#1e1e2e",
+                    "padding": "24px"
+                  },
+                  "children": [
+                    {
+                      "id": "node-stat4-h",
+                      "type": "heading",
+                      "props": {
+                        "text": "Beginner",
+                        "color": "#6c63ff",
+                        "fontSize": "2rem",
+                        "alignment": "center"
+                      }
+                    },
+                    {
+                      "id": "node-stat4-t",
+                      "type": "text",
+                      "props": {
+                        "text": "Skill Level",
+                        "color": "#888",
+                        "fontSize": "0.9rem"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-about-section",
+      "type": "section",
+      "props": {
+        "bgColor": "#0d0d1a",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "node-about-container",
+          "type": "container",
+          "props": {
+            "padding": "0 20px",
+            "maxWidth": "1100px"
+          },
+          "children": [
+            {
+              "id": "node-about-cols",
+              "type": "columns",
+              "props": {
+                "gap": "60px"
+              },
+              "children": [
+                {
+                  "id": "node-about-left",
+                  "type": "section",
+                  "props": {
+                    "bgColor": "transparent",
+                    "padding": "0"
+                  },
+                  "children": [
+                    {
+                      "id": "node-about-label",
+                      "type": "text",
+                      "props": {
+                        "text": "ABOUT THIS COURSE",
+                        "color": "#6c63ff",
+                        "fontSize": "0.75rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-h",
+                      "type": "heading",
+                      "props": {
+                        "text": "What You Will Learn",
+                        "color": "#ffffff",
+                        "fontSize": "2.2rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-t1",
+                      "type": "text",
+                      "props": {
+                        "text": "Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling used at top tech companies.",
+                        "color": "#aaa",
+                        "fontSize": "1rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-t2",
+                      "type": "text",
+                      "props": {
+                        "text": "✓  Build real-world projects from scratch",
+                        "color": "#ccc",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-t3",
+                      "type": "text",
+                      "props": {
+                        "text": "✓  Master industry best practices",
+                        "color": "#ccc",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-t4",
+                      "type": "text",
+                      "props": {
+                        "text": "✓  Get lifetime access to all materials",
+                        "color": "#ccc",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-t5",
+                      "type": "text",
+                      "props": {
+                        "text": "✓  Certificate of completion included",
+                        "color": "#ccc",
+                        "fontSize": "0.95rem"
+                      }
+                    },
+                    {
+                      "id": "node-about-btn",
+                      "type": "button",
+                      "props": {
+                        "href": "#enroll",
+                        "label": "Enroll Now — Free Preview",
+                        "variant": "primary"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "node-about-right",
+                  "type": "section",
+                  "props": {
+                    "bgColor": "transparent",
+                    "padding": "0"
+                  },
+                  "children": [
+                    {
+                      "id": "node-about-img",
+                      "type": "image",
+                      "props": {
+                        "alt": "Course preview",
+                        "src": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800",
+                        "width": "100%"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-instructor-section",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "node-instructor-container",
+          "type": "container",
+          "props": {
+            "padding": "0 20px",
+            "maxWidth": "700px"
+          },
+          "children": [
+            {
+              "id": "node-inst-label",
+              "type": "text",
+              "props": {
+                "text": "YOUR INSTRUCTOR",
+                "color": "#6c63ff",
+                "fontSize": "0.75rem"
+              }
+            },
+            {
+              "id": "node-inst-h",
+              "type": "heading",
+              "props": {
+                "text": "Amit Prasad",
+                "color": "#ffffff",
+                "fontSize": "2rem"
+              }
+            },
+            {
+              "id": "node-inst-t",
+              "type": "text",
+              "props": {
+                "text": "Expert instructor with years of industry experience. Passionate about teaching and helping students achieve real results.",
+                "color": "#aaa",
+                "fontSize": "1rem"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-enroll-section",
+      "type": "section",
+      "props": {
+        "bgColor": "#6c63ff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "node-enroll-container",
+          "type": "container",
+          "props": {
+            "padding": "0 20px",
+            "maxWidth": "700px"
+          },
+          "children": [
+            {
+              "id": "node-enroll-h",
+              "type": "heading",
+              "props": {
+                "text": "Ready to Get Started?",
+                "color": "#ffffff",
+                "fontSize": "2.5rem",
+                "alignment": "center"
+              }
+            },
+            {
+              "id": "node-enroll-t",
+              "type": "text",
+              "props": {
+                "text": "Join thousands of students already learning. Get instant access today.",
+                "color": "#ffffffcc",
+                "fontSize": "1.1rem"
+              }
+            },
+            {
+              "id": "node-enroll-price",
+              "type": "heading",
+              "props": {
+                "text": "$49",
+                "color": "#ffffff",
+                "fontSize": "3rem",
+                "alignment": "center"
+              }
+            },
+            {
+              "id": "node-enroll-btn",
+              "type": "button",
+              "props": {
+                "href": "#",
+                "label": "Enroll Now",
+                "variant": "outline"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "node-footer",
+      "type": "footer",
+      "props": {
+        "text": "© 2025 React Masterclass 2025 by Amit Prasad. All rights reserved.",
+        "color": "#555555",
+        "bgColor": "#0a0a16"
+      }
+    }
+  ]
+}

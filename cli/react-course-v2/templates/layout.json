@@ -1,0 +1,413 @@
+{
+  "id": "page-root",
+  "type": "page",
+  "props": {},
+  "children": [
+    {
+      "id": "n-navbar",
+      "type": "navbar",
+      "props": {
+        "logo": "React Masterclass 2025",
+        "links": [
+          "Home",
+          "Curriculum",
+          "Enroll"
+        ],
+        "bgColor": "#0a0a16"
+      }
+    },
+    {
+      "id": "n-hero",
+      "type": "hero",
+      "props": {
+        "title": "React Masterclass 2025",
+        "bgColor": "#0a0a16",
+        "subtitle": "Master React from zero to hero. Build 10 real-world projects using React 19, TypeScript, and modern tooling.",
+        "buttonHref": "#enroll",
+        "buttonText": "Start Learning Free"
+      }
+    },
+    {
+      "id": "n-stats",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "40px"
+      },
+      "children": [
+        {
+          "id": "n-stats-grid",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 4
+          },
+          "children": [
+            {
+              "id": "n-s1",
+              "type": "icontext",
+              "props": {
+                "icon": "👨‍🎓",
+                "text": "Students Enrolled",
+                "title": "12,000+"
+              }
+            },
+            {
+              "id": "n-s2",
+              "type": "icontext",
+              "props": {
+                "icon": "⭐",
+                "text": "Average Review Score",
+                "title": "4.9 Rating"
+              }
+            },
+            {
+              "id": "n-s3",
+              "type": "icontext",
+              "props": {
+                "icon": "🕐",
+                "text": "Total Duration",
+                "title": "42 Hours"
+              }
+            },
+            {
+              "id": "n-s4",
+              "type": "icontext",
+              "props": {
+                "icon": "🎯",
+                "text": "Skill Level",
+                "title": "Beginner"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-skills",
+      "type": "section",
+      "props": {
+        "bgColor": "#f9f9f9",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-skills-h",
+          "type": "heading",
+          "props": {
+            "text": "Skills You Will Master",
+            "color": "#111111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer1",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-p1",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "React & TypeScript",
+            "value": 95,
+            "bgColor": "#e5e7eb"
+          }
+        },
+        {
+          "id": "n-p2",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "Node.js & APIs",
+            "value": 85,
+            "bgColor": "#e5e7eb"
+          }
+        },
+        {
+          "id": "n-p3",
+          "type": "progress",
+          "props": {
+            "color": "#6c63ff",
+            "label": "Database Design",
+            "value": 80,
+            "bgColor": "#e5e7eb"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n-testimonials",
+      "type": "section",
+      "props": {
+        "bgColor": "#ffffff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-test-h",
+          "type": "heading",
+          "props": {
+            "text": "What Students Say",
+            "color": "#111111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer2",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-test-grid",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 3
+          },
+          "children": [
+            {
+              "id": "n-t1",
+              "type": "testimonial",
+              "props": {
+                "role": "Frontend Developer",
+                "quote": "This course changed my career completely!",
+                "author": "Sarah Johnson",
+                "bgColor": "#f9f9f9"
+              }
+            },
+            {
+              "id": "n-t2",
+              "type": "testimonial",
+              "props": {
+                "role": "Full Stack Engineer",
+                "quote": "Best investment I ever made. Real world projects!",
+                "author": "Mike Chen",
+                "bgColor": "#f9f9f9"
+              }
+            },
+            {
+              "id": "n-t3",
+              "type": "testimonial",
+              "props": {
+                "role": "Software Engineer",
+                "quote": "Clear, practical and well structured. Loved it!",
+                "author": "Priya Patel",
+                "bgColor": "#f9f9f9"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-pricing",
+      "type": "section",
+      "props": {
+        "bgColor": "#13131f",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-price-h",
+          "type": "heading",
+          "props": {
+            "text": "Simple Pricing",
+            "color": "#ffffff",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer3",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-price-grid",
+          "type": "grid",
+          "props": {
+            "gap": "24px",
+            "columns": 3
+          },
+          "children": [
+            {
+              "id": "n-price1",
+              "type": "pricing",
+              "props": {
+                "price": "29",
+                "title": "Basic",
+                "period": "/month",
+                "features": [
+                  "5 Projects",
+                  "Basic Support",
+                  "3 months access"
+                ],
+                "buttonText": "Get Started",
+                "highlighted": false
+              }
+            },
+            {
+              "id": "n-price2",
+              "type": "pricing",
+              "props": {
+                "price": "49",
+                "title": "Pro",
+                "period": "/month",
+                "features": [
+                  "Unlimited Projects",
+                  "Priority Support",
+                  "Lifetime access",
+                  "Certificate"
+                ],
+                "buttonText": "Most Popular",
+                "highlighted": true
+              }
+            },
+            {
+              "id": "n-price3",
+              "type": "pricing",
+              "props": {
+                "price": "99",
+                "title": "Team",
+                "period": "/month",
+                "features": [
+                  "Everything in Pro",
+                  "Team Dashboard",
+                  "Dedicated Support"
+                ],
+                "buttonText": "Contact Us",
+                "highlighted": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n-faq",
+      "type": "section",
+      "props": {
+        "bgColor": "#ffffff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-faq-h",
+          "type": "heading",
+          "props": {
+            "text": "Frequently Asked Questions",
+            "color": "#111111",
+            "fontSize": "2rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-spacer4",
+          "type": "spacer",
+          "props": {
+            "height": "32px"
+          }
+        },
+        {
+          "id": "n-faq1",
+          "type": "faq",
+          "props": {
+            "answer": "No! This course starts from the basics and takes you all the way to advanced concepts.",
+            "question": "Do I need prior experience?"
+          }
+        },
+        {
+          "id": "n-faq2",
+          "type": "faq",
+          "props": {
+            "answer": "You get lifetime access to all course materials including future updates.",
+            "question": "How long do I have access?"
+          }
+        },
+        {
+          "id": "n-faq3",
+          "type": "faq",
+          "props": {
+            "answer": "Yes! We offer a 30-day money back guarantee, no questions asked.",
+            "question": "Is there a money back guarantee?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n-cta",
+      "type": "section",
+      "props": {
+        "bgColor": "#6c63ff",
+        "padding": "80px 40px"
+      },
+      "children": [
+        {
+          "id": "n-cta-h",
+          "type": "heading",
+          "props": {
+            "text": "Ready to Transform Your Career?",
+            "color": "#ffffff",
+            "fontSize": "2.5rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-cta-t",
+          "type": "text",
+          "props": {
+            "text": "Join 12,000+ students already learning. Get instant access today.",
+            "color": "#ffffffcc",
+            "fontSize": "1.1rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-cta-price",
+          "type": "heading",
+          "props": {
+            "text": "49",
+            "color": "#ffffff",
+            "fontSize": "3rem",
+            "alignment": "center"
+          }
+        },
+        {
+          "id": "n-cta-btn",
+          "type": "button",
+          "props": {
+            "href": "#",
+            "color": "#6c63ff",
+            "label": "Enroll Now",
+            "bgColor": "#ffffff",
+            "padding": "16px 40px",
+            "variant": "outline",
+            "fontSize": "16px",
+            "alignment": "center",
+            "borderRadius": "8px"
+          }
+        }
+      ]
+    },
+    {
+      "id": "n-footer",
+      "type": "footer",
+      "props": {
+        "text": "© 2025 React Masterclass 2025 by Amit Prasad. All rights reserved.",
+        "color": "#555555",
+        "bgColor": "#0a0a16",
+        "alignment": "center"
+      }
+    }
+  ]
+}
