@@ -1,8 +1,18 @@
 // src/App.tsx
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import BuilderPage from './pages/BuilderPage';
+import DashboardPage from './pages/DashboardPage.tsx';
+import WebsiteManagePage from './pages/WebsiteManagePage.tsx';
 
-// For now we render the builder directly
-// Later we will add react-router-dom for multiple pages
 export default function App() {
-  return <BuilderPage />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" replace />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/dashboard/website/:id" element={<WebsiteManagePage />} />
+        <Route path="/builder" element={<BuilderPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
